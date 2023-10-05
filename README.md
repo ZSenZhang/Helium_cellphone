@@ -1,7 +1,7 @@
 # Helium Cell Track
 
 ## Overview
-- To test the cell phone's signal coverage, we are going to ship mobile devices through the way and having mobile devices do the experiment itself through the way. To achieve this, we use [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en_US&gl=US) to run the scripts automatically. And set up a server to capture the UDP packet sending from mobile devices.
+- To test the cell phone's signal coverage, we are going to ship mobile devices through the way and having mobile devices do the experiment itself through the way. To achieve this, we need to **set up a mobile device** and **set up a server** to capture the UDP packet sending from mobile devices. We use [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en_US&gl=US) to run the scripts automatically. 
 
 ## Mobile phone setup
 ### Connect the phone to your computer
