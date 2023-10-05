@@ -3,7 +3,7 @@
 ## Overview
 - To test the cell phone's signal coverage, we are going to ship mobile devices through the way and having mobile devices do the experiment itself through the way. To achieve this, we use [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en_US&gl=US) to run the scripts automatically. And set up a server to capture the UDP packet sending from mobile devices.
 
-## mobile-topology-phone-setup
+## Mobile phone setup
 ### Connect the phone to your computer
 - First of all connect the phone to your laptop through USB cable. There should be a permission alert show up on the phone. If not, please open up the *Settings*. Scroll down to the bottom, go to *Developer options* section. Turn off and turn on the *USB debugging* buttons, the permission alert should show up. Give the permission to the computer.
 
