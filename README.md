@@ -3,7 +3,7 @@
 ## Overview
 - To test the cell phone's signal coverage, we are going to ship mobile devices through the way and having mobile devices do the experiment itself through the way. To achieve this, we need to **set up a mobile device** and **set up a server** to capture the UDP packet sending from mobile devices. We use [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en_US&gl=US) to run the scripts automatically. 
 
-## Mobile phone setup
+## Set up a mobile phone
 ### Connect the phone to your computer
 - First of all connect the phone to your laptop through USB cable. There should be a permission alert show up on the phone. If not, please open up the *Settings*. Scroll down to the bottom, go to *Developer options* section. Turn off and turn on the *USB debugging* buttons, the permission alert should show up. Give the permission to the computer.
 
@@ -22,7 +22,7 @@
 ### shipping instructions:
 - please ship by cheapist ground 
 
-## Setup a server to capture UDP packets
+## Setup a server
 ### Requirement
 All you need is to have a server with public IP addresses, and use `screen` to run `tcpdump` to capture the UDP packets from phone. 
 
