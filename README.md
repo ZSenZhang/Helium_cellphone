@@ -27,7 +27,7 @@
 All you need is to have a server with public IP addresses, and use `screen` to run `tcpdump` to capture the UDP packets from phone. 
 
 ### Command for setting up the UDP server
-The command to set up a UDP server listen to port 62234 to receive signal: `sudo tcpdump -i any port 62234 -n`. Don't forget change the ip address and port number in tasker's command line.
+The command to set up a UDP server listen to port 62234 to receive signal: `sudo tcpdump -i any port 62234 -n -w <file-to-save-to>`. Don't forget change the ip address and port number in tasker's command line.
 
 ### Start a server with public IP address
 If you have a server controlled by yourself, you can use UCSD's VPN which will give you a public IP address, or you can use AWS ec2 server.
